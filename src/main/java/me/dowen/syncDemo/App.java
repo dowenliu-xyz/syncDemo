@@ -119,6 +119,7 @@ public class App {
 		run.execute(cook);
 		run.execute(toilet);
 		run.execute(news);
+		run.shutdown();
 		try {
 			toWorkDoneSignal.await();
 			System.out.println("到了公司，写了这个代码...");
