@@ -111,7 +111,7 @@ public class App {
 				}
 			}
 		};
-		// 开始干吧！另管顺序，所有事情都丢进去，我安排好了线程同步！
+		// 开始干吧！别管顺序，所有事情都丢进去，我安排好了线程同步！
 		run.execute(toWork);
 		run.execute(breakfast);
 		run.execute(eggCook);
