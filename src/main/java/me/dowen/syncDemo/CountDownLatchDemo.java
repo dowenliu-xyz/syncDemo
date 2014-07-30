@@ -5,7 +5,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class App {
+public class CountDownLatchDemo {
 
 	public static void main(String[] args) {
 		// 早上起来要做以下几件事
